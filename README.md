@@ -1,1 +1,1 @@
-https://wren-nest.github.io/game-site/
+https://wren-nest.github.io/withering/
