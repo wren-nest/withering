@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Depth</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <body style="background-color:#020f30;">
+</head>
+
+<style>
+#panel, .flip {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  background-color: #020f30;
+  color: white;
+  border: solid 1px #666e82;
+  margin: auto;
+}
+
+#panel {
+  display: none;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+<body>
+    <h1 style="font-size:60px; color:#ffffff; font-family: Georgia; text-align: center;">The Jetty</h1>
+</body>
+
+<body>
+    <p style="font-size: 20px; color:#ffffff; font-family: Georgia; text-align: center;">
+        You are outdoors. There are three rickety wooden steps that lead down 
+        to a short jetty. The lake glitters under a the full moon. There are no stars.<br><br>
+
+        Looking back at the door you came out of, there's only Nothing there. The entire structure 
+        is consumed with it. The creaky steps jut out of the darkness unnaturally. You look away.<br><br>
+        
+        This lake is lined by thick woods, and you have no way to reach the shore.<br>
+        A rowboat is floating a in the middle of the water, out of reach.<br><br>
+
+        You can see the rope it was moored with hanging loose into the water. <br>
+        You wonder how far down it goes.<br><br>
+
+        Part of you wants to jump in the water and follow the rope down as far as it may lead.<br>
+        Your better judgement suggests otherwise.</p>
+
+        <p class="flip" onclick="myFunction()" style="font-size: 22px; color:#ffffff; font-family: Georgia; text-align: center;">
+            Pull up the rope?  <span style="color:#6a707c;">(Click here)</span></p>
+    
+        <div id="panel" style="font-size: 20px; color:#ffffff; font-family: Georgia; text-align: center;">
+        <p>You dredge the slimey rope up out of the water<br><br>
+    
+            Something is attatched to it, something heavy. You haul it onto the jetty.<br>
+            A bundle tied together with a hasty knot at the end of the rope.<br><br>
+    
+            You open it, and find inside a strange assortment of trinkets. Photo frames with cracked glass, 
+            a bracelet so tarnished you can't tell what it once was, shards of coloured 
+            porceline that may have once been a sculpure or plate.<br><br>
+    
+            The fabric that bundled them together seems odd too, it's thick like a curtain, but is torn along 
+            two sides so you have no way of knowing what it was cut from.<br></p>
+        </div>
+    
+        <script>
+        function myFunction() {
+        document.getElementById("panel").style.display = "block";
+        }
+    </script>
+
+        <p style="font-size: 20px; color:#ffffff; font-family: Georgia; text-align: center;">You think to glance back at the house, and see that it isn't hidden by the Nothing, 
+        rather it is just sitting in natural shadow. You head back toward it but something is different.<br><br>
+
+        The stairs are new, and the door looks different to the way you came in before.<br>
+        A tattered flyscreen door is left open, cobwebs hanging between it and the doorframe.<br>
+        Behind it is a plain green door with a simple round handle. The edges of old wood painted wood 
+        curl away, swollen with age like old joints.<br><br>
+
+        With a firm tug, the door opens to a hallway.<br>
+        This definetly isn't the way you came before.
+        </p>
+</body>
+
+<nav>
+<p style="font-size: 20px; color:#ffffff; font-family: Georgia; text-align: center;">
+    <br><br>
+
+    Which way will you go?<br><br>
+
+    <a href="room .html" class="button">Left</a>    
+    <a href="room .html" class="button">Right</a></p>
+</nav>
+
+</html> 
