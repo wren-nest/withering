@@ -3,10 +3,24 @@
 <head>
     <title>Waxroom</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <body style="background-color:#001005;">
+    <body style="background-color:#131614;">
 </head>
 
 <style>
+#panel, .flip {
+    font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  background-color: #131614;
+  color: white;
+  border: solid 1px #4d524e;
+  margin: auto;
+}
+
+#panel {
+  display: none;
+}
+
 .button {
   background-color: #e5d6b5;
   border: none;
@@ -36,21 +50,53 @@
         The floor is carpeted, and in the center of the room are indents left by the feet of
          another peice of furniture that has been moved. It has left a long, round imprint in the carpet.<br><br>
 
-        It seems to be shaped like a boat, eliptical and pointed at both ends. This is 
-        probably a coincidence.<br><br>
+        It seems to be shaped like a boat, eliptical and pointed at both ends.<br><br>
 
-        Opposite you is a fireplace, unlit and empty. The only thing on the mantle 
+        Opposite you is a fireplace, unlit and empty. The only thing on the mantle is a picture frame, face down.
+        
+            <p class="flip" onclick="myFunction()" style="font-size: 22px; color:#e5d6b5; font-family: Georgia; text-align: center;">
+            Pick up the frame?  <span style="color:#837d70;">(Click here)</span></p>
+        
+            <div id="panel">
+            <p>The glass of the frame is broken, some of it falls onto the mantle as you pick it up.<br><br>
+
+                There's nothing to see inside, just the white backing of the frame.<br>
+                You fix the stand at the back of the frame and sit it upright on the mantle.
+            </p>
+            </div>
+        
+            <script>
+            function myFunction() {
+            document.getElementById("panel").style.display = "block";
+            }
+        </script>
+
+            <p style="font-size:20px; color:#e5d6b5; font-family: Georgia; text-align: center;">
+              Looking around the room again, you notice that you stepped over the imprint 
+              in the carpet, leaving footprints over the perfect imprint.<br><br>
+
+              Or you must have done without realisng, no one else has been in here.
+            </p>
+        </body>
+
+
     </p>
 </body>
 
 <nav>
 <p style="font-size: 20px; color:#e5d6b5; font-family: Georgia; text-align: center;">
     <br><br>
+    You look at the fireplace again. It seems like it goes back through the wall rather than having 
+    space going up. You think you could crawl inside quite easily.<br>
+
+    The only other way forward is through a door you initially mistook as a cupboard 
+    because of its understated desgin.<br><br>
+
 
     Which way will you go?<br><br>
 
-    <a href="green.html" class="button">option1</a>    
-    <a href="orange.html" class="button">option2</a></p>
+    <a href="green.html" class="button">Into the fireplace</a>    
+    <a href="orange.html" class="button">Out the door</a></p>
 </nav>
 
 </html> 
