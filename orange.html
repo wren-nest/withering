@@ -7,7 +7,7 @@
 </head>
 
 <style>
-#panel1, .flip1 {
+#panel1, .flip {
   font-size: 16px;
   padding: 10px;
   text-align: center;
@@ -19,16 +19,6 @@
 
 #panel1 {
   display: none;
-}
-
-#panel2, .flip2 {
-  font-size: 16px;
-  padding: 10px;
-  text-align: center;
-  background-color: #000010;
-  color: white;
-  border: solid 1px #323642;
-  margin: auto;
 }
 
 #panel2 {
@@ -74,7 +64,7 @@
       <span style="color: #685146">The garden beds are dry, barren of any hint of green. Most of them beds are overrun with 
       limp, dead grass- even the weeds haven't survived in here.</span></p>
 
-      <p class="flip1" onclick="myFunction1()" style="font-size: 22px; color:#6e4941; font-family: Georgia; text-align: center;">
+      <p class="flip" onclick="myFunction1()" style="font-size: 22px; color:#6e4941; font-family: Georgia; text-align: center;">
         Take a closer look at the garden beds?  <span style="color:#323642;">(Click here)</span></p>
   
       <div id="panel1" style="font-size: 20px; color:#6e4941; font-family: Georgia; text-align: center;">
@@ -87,7 +77,7 @@
       </div>
 
       <script>
-        function myFunction1() {
+        function myFunction() {
         document.getElementById("panel1").style.display = "block";
         }
         </script>
@@ -102,7 +92,7 @@
       You think of a small quilled creature. </span>
     </p>
 
-    <p class="flip2" onclick="myFunction2()" style="font-size: 22px; color:#381818; font-family: Georgia; text-align: center;">
+    <p class="flip" onclick="myFunction2()" style="font-size: 22px; color:#381818; font-family: Georgia; text-align: center;">
       Investigate the corpse?  <span style="color:#323642;">(Click here)</span></p>
 
     <div id="panel2" style="font-size: 20px; color:#7e2323; font-family: Georgia; text-align: center;">
@@ -124,11 +114,11 @@
     </p>
     </div>
 
-    <script>
-    function myFunction2() {
+    <!-- <script>
+    function myFunction() {
     document.getElementById("panel2").style.display = "block";
     }
-    </script>
+    </script> -->
     <p style="font-size:20px; color:#ffffff; font-family: Georgia; text-align: center;">
       <span style="color: #3e2328">You turn your attention to finding another way forwards. Looking back at the shared brick wall between 
       the inside of the greenhouse and the outside of the house, you notice a hatch close to the glass roof.<br>
