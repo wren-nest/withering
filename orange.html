@@ -7,7 +7,7 @@
 </head>
 
 <style>
-#panel, .flip {
+#panel1, .flip1 {
   font-size: 16px;
   padding: 10px;
   text-align: center;
@@ -17,7 +17,21 @@
   margin: auto;
 }
 
-#panel {
+#panel1 {
+  display: none;
+}
+
+#panel2, .flip2 {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  background-color: #000010;
+  color: white;
+  border: solid 1px #323642;
+  margin: auto;
+}
+
+#panel2 {
   display: none;
 }
 
@@ -60,10 +74,10 @@
       <span style="color: #685146">The garden beds are dry, barren of any hint of green. Most of them beds are overrun with 
       limp, dead grass- even the weeds haven't survived in here.</span></p>
 
-      <p class="flip" onclick="myFunction()" style="font-size: 22px; color:#6e4941; font-family: Georgia; text-align: center;">
+      <p class="flip1" onclick="myFunction()" style="font-size: 22px; color:#6e4941; font-family: Georgia; text-align: center;">
         Take a closer look at the garden beds?  <span style="color:#323642;">(Click here)</span></p>
   
-      <div id="panel" style="font-size: 20px; color:#6e4941; font-family: Georgia; text-align: center;">
+      <div id="panel1" style="font-size: 20px; color:#6e4941; font-family: Georgia; text-align: center;">
       <p>There are shriveled plants of incredible variety. Several beds are filled with stiff stems 
         and shriveled specks of petals, the remains of exotic flowers. There are dead bushes with 
         rotten berries of all kinds dripping over stiff leaves. Several trellises are covered in the 
@@ -71,12 +85,13 @@
         in on itself and shriveled almost beyond recognition.
       </p>
       </div>
-  
+
       <script>
-      function myFunction() {
-      document.getElementById("panel").style.display = "block";
-      }
-      </script>
+        function myFunction() {
+        document.getElementById("panel1").style.display = "block";
+        }
+        </script>
+  
       <p style="font-size:20px; color:#ffffff; font-family: Georgia; text-align: center;">
         <span style="color: #684946">As you walk furthur into the greenhouse, toward the lighter end, you're hit by a new smell, even 
       more disgusting than the last. It's more fleshy, and has your hair standing on end. Even still, 
@@ -87,10 +102,10 @@
       You think of a small quilled creature. </span>
     </p>
 
-    <p class="flip" onclick="myFunction()" style="font-size: 22px; color:#381818; font-family: Georgia; text-align: center;">
+    <p class="flip2" onclick="myFunction()" style="font-size: 22px; color:#381818; font-family: Georgia; text-align: center;">
       Investigate the corpse?  <span style="color:#323642;">(Click here)</span></p>
 
-    <div id="panel" style="font-size: 20px; color:#7e2323; font-family: Georgia; text-align: center;">
+    <div id="panel2" style="font-size: 20px; color:#7e2323; font-family: Georgia; text-align: center;">
     <p>
       Flipping over the dead thing, you find an opening. 
       You drive your hands into the mound of rotten flesh. 
@@ -111,7 +126,7 @@
 
     <script>
     function myFunction() {
-    document.getElementById("panel").style.display = "block";
+    document.getElementById("panel2").style.display = "block";
     }
     </script>
     <p style="font-size:20px; color:#ffffff; font-family: Georgia; text-align: center;">
