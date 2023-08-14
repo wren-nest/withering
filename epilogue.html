@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Home</title>
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-  <body style="background-color:#001005;">
+    <title>Nothing</title>
+    <body style="background-color:#001005;">
 </head>
 
 <style>
+.fade {
+  width: auto;
+  height: auto;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: Georgia;
+  text-align: center;
+  animation-name: fade;
+  animation-duration: 7s;
+}
+
+@keyframes fade {
+  from {color: #000000;}
+  to {color:rgb(255, 255, 255);}
+}
+
 .button {
-  background-color: #131514;
+  background-color: #636363;
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -20,59 +36,28 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
 </style>
 
-<body>
-    <h1 style="font-size:30px; color:#ffffff; font-family: Georgia; text-align: center">Home.</h1>
-</body>
+<div style="background-color:#001005; width: auto; height: 75px;"></div>
 
 <body>
-    <p style="font-size: 20px; color:#ffffff; font-family: Georgia; text-align: center;">
-    You are in an empty room.<br><br>
-
-    The space is lit by a single yellowed lightbulb mounted to the wall. 
-    To your left is a battered leather couch covered in a thick layer of dust. 
-    You can see the imprint where Someone sat recently.<br><br>
-
-    The only other furniture is a wooden coffee table with elegantly carved legs. 
-    Gaps in the dust show where items- perhaps photo frames, or a tea set- once were.<br><br>
-
-    <span style="color: #f4f7f5;">Stained wallpaper is peeling off the walls. Floorboards creak underfoot. 
-    The air is thick as soup, swimming with grime and rot.</span><br><br>
-
-    <span style="color: #e1e5e2;">You hear something dripping from the ceiling above you, 
-    falling somewhere just ahead of you. </span><br>
-    <span style="color: #d2d7d3;">You don't bother looking for the source of the sound.</span><br>
-    <span style="color: #c0c6c2;">You know there is only Nothing.</span><br>
-    <span style="color: #b2b8b4;">Ahead of you is only darkness.</span><br><br>
-
-    <span style="color: #a5a9a7;">Even where the flickering light 
-    should illuminate, there is only shadow.</span><br><br><br>
-
-
-    <span style="color: #4e5250;">Darkness begins to creep into the edges of your vision.</span><br>
-    <span style="color: #454847;">You rub your eyes instinctively, you know it won't go away.</span><br><br><br>
-
-
-    <span style="color: #3e4543;"><b>You cannot </b>be here<b> anymore.</b></span><br><br><br>
-
-
-    <span style="color: #242625;">There is only empty space before you. You can just barely 
-    make out the shape of a window, but that vision fades too.</span><br><br>
-
-    <span style="color: #1a1d1c;">You can't see your hand before your face anymore, like it isn't there at all.</span><br><br>
-    </p>
+    <div class="fade">
+        There is<br>
+        Nothing<br>
+        here.
+    </div>
 </body>
 
 <nav>
-<p style="font-size:20px; color:#191c1b; font-family: Georgia; text-align: center">
-  
-  <span style="color: #131514;">You may look around, for now.</span><br><br><br>
-  
+<p style="font-size:20px; color:#636363; font-family: Georgia; text-align: center">
+  <br><br><br><br>
 
-  Where do you look?<br><br>
-<a href="dead-end.html" class="button">Left</a>    
-<a href="dead-end.html" class="button">Right</a></p>
+  Which way will you go?<br><br>
+<a href="silence.html" class="button">Left</a>    
+<a href="forgiveness.html" class="button">Right</a></p>
 </nav>
 
-</html>
+
+</html> 
+

@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Inverted Horizon</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Nothing</title>
     <body style="background-color:#001005;">
 </head>
 
 <style>
-.ellipsetop{
-    height: 55px;
-    width: 80px;
-    background-color: black;
-    border-radius: 50%;
-    position: absolute;
-    z-index: -1;
+.fade {
+  width: auto;
+  height: auto;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: Georgia;
+  text-align: center;
+  animation-name: fade;
+  animation-duration: 7s;
 }
 
-.ellipsebottom{
-    height: 60px;
-    width: 85px;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    z-index: -2;
+@keyframes fade {
+  from {color: #000000;}
+  to {color:rgb(255, 255, 255);}
 }
 
 .button {
-  background-color: #ffffff;
+  background-color: #636363;
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -38,56 +36,28 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
 </style>
 
-<body>
-    <h1 style="font-size:30px; color:#ffffff; font-family: Georgia; text-align: center;">The TV Room</h1>
-</body>
-
-<div class="ellipsetop" style="left: 104px; top: 99px"></div>
-<div class="ellipsebottom" style="left: 100px; top: 100px"></div>
-
-<div class="ellipsetop" style="left: 402px; top: 119px"></div>
-<div class="ellipsebottom" style="left: 400px; top: 120px"></div>
-
-<div class="ellipsetop" style="left: 203px; top: 419px"></div>
-<div class="ellipsebottom" style="left: 200px; top: 420px"></div>
+<div style="background-color:#001005; width: auto; height: 75px;"></div>
 
 <body>
-    <p style="font-size: 20px; color:#ffffff; font-family: Georgia; text-align: center;">
-        At first the only thing you see are rings of light. Or they appear to be rings,
-        they wrap around cylindrical objects- your mind fills in the part you cannot see.<br><br>
-        
-        You notice other objects about the room among the pylons. A couch, a table, an armchair.<br><br>
-        
-        They all seem unfamiliar in the strange sideways light that fills the room.<br><br>
-
-        Your shadow is obscuring the door behind you that you just came through or- no, when you move 
-        the darkness stays still. <span style="color: #444f47;">Or at least, it doesn't move as you do.</span><br><br>
-
-        <span style="color: #444f47;">You watch as the Nothing slowly creeps back out under the door.</span><br><br><br><br>
-
-        You sit in the armchair for a moment.<br>
-        On the carpeted floor in front of you is a tv, one of those old, square shaped ones. It isn't plugged in.
-        <br><br><br>
-
-        You're starting to get a headache, your temples throbbing. You blame it on the weird lighting.
-    </p>
+    <div class="fade">
+        There is<br>
+        Nothing<br>
+        here.
+    </div>
 </body>
 
 <nav>
-<p style="font-size: 20px; color:#ffffff; font-family: Georgia; text-align: center;">
-    <br><br>
-    There is only one way forward from here, a door at the end of the room. You could go back through the door
-    you entered through- the one the Nothing left through.<br>
-    In fact, the door looks quite different now, it might lead somewhere new...<br><br>
+<p style="font-size:20px; color:#636363; font-family: Georgia; text-align: center">
+  <br><br><br><br>
 
-    You clear that thought from your mind quickly.<br><br>
-
-    Which way will you go?<br><br>
-
-    <a href="here4.html" class="button">Forward</a>    
-    <a href="no-escape3.html" class="button"><span style="color: #cad2cc;"><s>Backwards</s></span>A New Way</a></p>
+  Which way will you go?<br><br>
+<a href="silence.html" class="button">Left</a>    
+<a href="forgiveness.html" class="button">Right</a></p>
 </nav>
 
+
 </html> 
+
